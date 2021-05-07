@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Codeex\\RoleAssignment\\' => array($baseDir . '/src'),
+    'Codeex\\IssueTracking\\' => array($baseDir . '/src'),
 );

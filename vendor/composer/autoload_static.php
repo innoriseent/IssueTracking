@@ -9,19 +9,15 @@ class ComposerStaticInit55520d52c8103372454d3308ad47e83c
     public static $prefixLengthsPsr4 = array (
         'C' => 
         array (
-            'Codeex\\RoleAssignment\\' => 22,
+            'Codeex\\IssueTracking\\' => 21,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Codeex\\RoleAssignment\\' => 
+        'Codeex\\IssueTracking\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
-    );
-
-    public static $classMap = array (
-        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -29,7 +25,6 @@ class ComposerStaticInit55520d52c8103372454d3308ad47e83c
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit55520d52c8103372454d3308ad47e83c::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit55520d52c8103372454d3308ad47e83c::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit55520d52c8103372454d3308ad47e83c::$classMap;
 
         }, null, ClassLoader::class);
     }
