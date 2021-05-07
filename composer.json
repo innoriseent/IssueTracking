@@ -1,0 +1,19 @@
+{
+    "name": "codeex/issue_tracking",
+    "description": "Issue tracking sub-system",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafik Rushanian",
+            "email": "rafik@innorise.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Codeex\\IssueTracking\\": "src/"
+        }
+    }
+}

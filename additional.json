@@ -1,0 +1,16 @@
+{
+    "name": "codeex/issue_tracking",
+    "description": "Issue tracking sub-system",
+    "type": "module",
+    "authors": [
+        {
+            "name": "Codeex amazing team",
+            "email": "rafik@innorise.com"
+        }
+    ],
+    "namespace": "Codeex\\IssueTracking\\",
+    "provider": {
+        "alias": "issue_tracking",
+        "class": "IssueTrackingServiceProvider"
+    }
+}
